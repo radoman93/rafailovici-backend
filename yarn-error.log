@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Pavle\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Users\Pavle\WebstormProjects\rafailovici-invoice\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\ImageMagick-7.0.11-Q16-HDRI;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Users\Pavle\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Pavle\.windows-build-tools\python27\;node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Pavle\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\Pavle\AppData\Roaming\npm\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Pavle\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;C:\Users\Pavle\.dotnet\tools;C:\Users\Pavle\AppData\Roaming\npm;C:\Users\Pavle\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\Azure Data Studio\bin;C:\Users\Pavle\AppData\Local\Programs\Fiddler;C:\Users\Pavle\.windows-build-tools\python27;C:\Users\Pavle\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\mitmproxy\bin;C:\Users\Pavle\AppData\Local\Microsoft\WindowsApps;C:\Gradle\bin;C:\Users\Pavle\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Java\jdk1.8.0_212\lib;C:\Users\Pavle\AppData\Local\Android\Sdk\emulator;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, unlink 'C:\Users\Pavle\WebstormProjects\rafailovici-invoice-backend\node_modules\carbone\examples\movies.docx'
+
+npm manifest: 
+  {
+    "name": "rafailovici-invoice-backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "npx nodemon ./bin/www"
+    },
+    "dependencies": {
+      "carbone": "^3.2.3",
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
